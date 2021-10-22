@@ -36,7 +36,7 @@ async function run(){
     await page.waitForSelector("button[type='submit']")
     await page.click("button[type='submit']")
 
-    for(let i=9;i<13;i++){
+    for(let i=0;i<3;i++){
         await page.waitForSelector("a[data-analytics='NavBarContests']")
         await page.click("a[data-analytics='NavBarContests']")
 
